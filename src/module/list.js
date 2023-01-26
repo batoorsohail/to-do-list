@@ -2,7 +2,7 @@
 const toDoListData = [
   {
     description: 'Working Out',
-    completed: true,
+    completed: false,
     index: 0,
   },
   {
@@ -12,7 +12,7 @@ const toDoListData = [
   },
   {
     description: 'Studying',
-    completed: true,
+    completed: false,
     index: 1,
   },
 ];
