@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(211, 211, 211, 0.4);
+}
+
+.container {
+  width: 40%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.fa-solid {
+  float: right;
+}
+
+input {
+  border: none;
+}
+
+.addList {
+  width: 90%;
+  height: 30px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+.fa-arrow-turn-down {
+  transform: rotate(90deg);
+}
+
+.list-to-do {
+  padding: 5px;
+}
+
+.to-do {
+  margin-right: 10px;
+}
+
+.line {
+  margin-top: 10px;
+}
+
+.clear {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.clear li {
+  color: #807f7f;
+}
