@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 const toDoListData = [
   {
     description: 'Working Out',
@@ -7,26 +8,26 @@ const toDoListData = [
   {
     description: 'Cooking',
     completed: false,
-    index: 1,
+    index: 2,
   },
   {
     description: 'Studying',
     completed: true,
-    index: 2,
+    index: 1,
   },
 ];
 
 const addToList = () => {
   const listContainer = document.getElementById('listContainer');
-  for (let i = 0; i < toDoListData.length; i += 1) {
+  for (const item of toDoListData) {
     listContainer.innerHTML += `
       <li class="list-to-do">
         <input type="checkbox" class="to-do">
-        ${toDoListData[i].description}
+        ${item.description}
         <i class="fa-solid fa-trash"></i>
-      </lis>
+      </li>
       <hr class="line">
     `;
   }
 };
-export default addToList();
+export default addToList;
