@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
-      src="https://kit.fontawesome.com/e520ead38a.js"
+      src="https://kit.fontawesome.com/f5f70a395d.js"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
-    <section class="main">
-        <div class="container">
-            <ul id="listContainer">
-                <li>Today's To Do <i class="fa-solid fa-arrows-rotate"></i></li>
-                <hr>
-                <li><input type="text" class="addList" placeholder="Add your list..."> <i class="fa-solid fa-arrow-turn-down"></i></li>
-                <hr>
-            </ul>
-            <ul class="clear">
-                <li>Clear all completed</li>
-            </ul>
-        </div>
-    </section>
-
+    <link
+    href="https://fonts.googleapis.com/css?family=Poppins"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="article">
+            <h1>To Do List</h1>
+            <i class="fa-solid fa-rotate" id="btn-refresh"></i>
+            <input
+              type="text"
+              placeholder="Add to your list"
+              id="add-new-task"
+              required
+            />
+          </div>
+          <ul class="todo-list"></ul>
+          <button class="btn btn-clear" type="button">
+            Clear All Completed Tasks
+          </button>
+      </div>
+    </main>
+    
     <script type="module" src="index.js"></script>
-</body>
+  </body>
 </html>

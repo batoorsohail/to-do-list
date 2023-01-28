@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 * {
-  list-style: none;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -18,17 +18,10 @@
 .container {
   width: 40%;
   height: auto;
-  background-color: white;
+  background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
-  padding: 20px;
-}
-
-#listContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 10px;
+  padding: 25px;
 }
 
 .fa-solid {
@@ -39,38 +32,45 @@ input {
   border: none;
 }
 
-.addList {
-  width: 90%;
-  height: 30px;
-  font-size: 16px;
+#add-new-task {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 input::placeholder {
   font-style: italic;
 }
 
-.fa-arrow-turn-down {
-  transform: rotate(90deg);
-}
-
-.list-to-do {
-  padding: 5px;
-}
-
-.to-do {
-  margin-right: 10px;
-}
-
-.line {
-  margin-top: 10px;
-}
-
-.clear {
+.todo-list {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
   margin-top: 10px;
 }
 
-.clear li {
-  color: #807f7f;
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#task {
+  width: 90%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  border-radius: 10px;
 }
