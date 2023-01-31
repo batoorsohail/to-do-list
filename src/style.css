@@ -70,6 +70,10 @@ input::placeholder {
   width: 100%;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
 .btn:hover {
   background-color: aliceblue;
   border-radius: 10px;

@@ -2,6 +2,7 @@ import './style.css';
 import Task from './task.js';
 import LocalStorage from './localstorage.js';
 import UI from './UI.js';
+import Status from './Status.js';
 
 let tasksList;
 if (LocalStorage.getData() === null) {
@@ -43,4 +44,14 @@ const btnRefresh = document.querySelector('#btn-refresh');
 btnRefresh.addEventListener('click', () => {
   window.location.reload();
   UI.reloadPage();
+});
+
+const btnClearCompleted = document.querySelector('.btn-clear');
+btnClearCompleted.addEventListener('click', (e) => {
+  Status.clearAllCompletedTask(e, tasksList);
+  tasksList = LocalStorage.getData();
+  UI.updateIndex(tasksList);
+  LocalStorage.saveData(tasksList);
+  tasksList = LocalStorage.getData();
+  UI.showAllTasks(tasksList);
 });
