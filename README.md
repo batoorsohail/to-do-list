@@ -59,7 +59,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://batoorsohail.github.io/awesome-books-ES6/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +90,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/batoorsohail/awesome-books-ES6.git
+  git clone https://github.com/batoorsohail/to-do-list.git
 ```
 -
 
