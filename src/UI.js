@@ -11,7 +11,7 @@ export default class UI {
 
   static removeTask(target, btn, index) {
     const currentLi = target.parentElement;
-    currentLi.parentElement.removeChild(currentLi);
+    // currentLi.parentElement.removeChild(currentLi);
 
     let tasksList = LocalStorage.getData();
     tasksList = tasksList.filter((task, idx) => idx !== index);
