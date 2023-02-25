@@ -122,9 +122,9 @@ You can deploy this project using:
 
 👤 **Batoor Sohail**
 
-- GitHub: [@battorsohail](https://github.com/battorsahail)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@batoorsohail](https://github.com/batoorsohail)
+- Twitter: [@twitter](https://twitter.com/sohailBatoor)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sohail-batoor-52429b230/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
