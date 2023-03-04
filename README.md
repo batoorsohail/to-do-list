@@ -27,7 +27,9 @@
 
 # 📖 Awesome Books <a name="about-project"></a>
 
-**Awesome books** is a a small project to help master basic javascript concepts eg classes objects, arrays and dom manipulation
+**To Do List** is a a small project that you can your days to dos inside it, and also delete it if you want. This project is made with HTML, CSS, and JavaScript.
+
+<img src="toDoList.JPG"></img>
 
 ## 🛠 Built With <a name="built-with"></a>
 
