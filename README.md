@@ -45,7 +45,6 @@
 
 
 ### Key Features <a name="key-features"></a>
-> Describe between 1-3 key features of the application.
 
 - **Add Book**
 - **Remove Book**
@@ -56,8 +55,6 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://batoorsohail.github.io/to-do-list/dist/)
 
@@ -150,9 +147,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,9 +155,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank every one who helped me during this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,6 +167,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/batoorsohail/to-do-list/blob/interactiveList/LICENSE.MD) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
